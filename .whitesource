@@ -27,8 +27,22 @@
   },
   "remediateSettings": {
     "enableRenovate": true,
-    "workflowRules": {
-      "enabled": true
-    }
+    "extends": [
+      "Roots/renovate-config"
+    ],
+    "ignoreDeps": [
+      "babel-plugin-add-module-exports"
+    ],
+    "reviewers": [
+      "team:the-roots"
+    ],
+    "packageRules": [
+      {
+        "packageNames": [
+          "react-bootstrap"
+        ],
+        "allowedVersions": "<1"
+      }
+    ]
   }
 }
