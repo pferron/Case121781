@@ -28,7 +28,7 @@
   "remediateSettings": {
     "enableRenovate": true,
     "extends": [
-      "Roots/renovate"
+      "Roots/renovate.json"
     ],
     "ignoreDeps": [
       "babel-plugin-add-module-exports"
