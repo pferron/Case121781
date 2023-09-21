@@ -28,7 +28,7 @@
   "remediateSettings": {
     "enableRenovate": true,
     "extends": [
-      "Roots/renovate.json"
+      "github>pferron/Case121781/Roots"
     ],
     "ignoreDeps": [
       "babel-plugin-add-module-exports"
