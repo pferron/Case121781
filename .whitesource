@@ -23,7 +23,10 @@
   },
   "issueSettings": {
     "minSeverityLevel": "LOW",
-    "issueType": "DEPENDENCY"
+    "issueType": "DEPENDENCY",
+    "customLabels": [
+    "security vulnerability"
+    ]
   },
   "remediateSettings": {
     "enableRenovate": true,
