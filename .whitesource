@@ -25,7 +25,7 @@
     "minSeverityLevel": "LOW",
     "issueType": "DEPENDENCY",
     "customLabels": [
-    "security vulnerability Test"
+    "security vulnerability"
     ]
   },
   "remediateSettings": {
