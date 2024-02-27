@@ -30,6 +30,9 @@
   },
   "remediateSettings": {
     "enableRenovate": true,
+    "extends": [
+    "github>pferron/shared-config",
+    ],
     "workflowRules": {
       "enabled": true
     }
