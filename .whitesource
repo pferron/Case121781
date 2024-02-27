@@ -30,6 +30,7 @@
   },
   "remediateSettings": {
     "enableRenovate": true,
+    "baseBranches": ["main"],
     "extends": [
     "github>pferron/shared-config",
     ],
